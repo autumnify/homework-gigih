@@ -12,7 +12,7 @@ xhttp.onreadystatechange = function() {
 		//Typical action to be performed when the document is ready:
 		var data = JSON.parse(xhttp.responseText);
 		console.log(data);
-	} else {
+	} else if(this.readyState == 4) {
 		alert(`error = ${xhttp.responseText}`);
     // console.log(`error : ${xhttp.responseText}`);
 	}
