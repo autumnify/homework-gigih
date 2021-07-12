@@ -1,1 +1,0 @@
-# Generasi-gigih-homework
